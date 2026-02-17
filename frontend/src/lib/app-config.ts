@@ -62,11 +62,11 @@ const DISTRICT_MAP_ROOT = `district-maps/${STATE_SLUG}`;
 
 export const APP_CONFIG: AppConfig = {
   branding: {
-    orgName: "Civic Atlas Labs",
-    headerSubtitle: "An open-source ballot endorsement guide starter for any jurisdiction",
-    electionLabel: "Boilerplate Community Edition",
-    footerBlurb: "Fork, customize, and ship your own public voter guide",
-    attributionName: "MisterClean/ballot-endorsement-guide",
+    orgName: "Chicago Growth Project",
+    headerSubtitle: "Look up endorsed candidates on your ballot",
+    electionLabel: "2026 March 17 Primary Election",
+    footerBlurb: "Looking to get YIMBYs in office",
+    attributionName: "Maintained by Chicago Growth Project, forked from MisterClean/ballot-endorsement-guide",
     attributionUrl: "https://github.com/MisterClean/ballot-endorsement-guide",
   },
   geography: {
@@ -122,7 +122,7 @@ export const APP_CONFIG: AppConfig = {
     },
   },
   geocoding: {
-    provider: "geocode-earth",
+    provider: "google-maps",
     autocompleteLimit: 8,
   },
   ui: {
