@@ -25,6 +25,8 @@ interface AppConfig {
     headerSubtitle: string;
     electionLabel: string;
     footerBlurb: string;
+    footerOrgLink: string;
+    footerOrgUrl: string;
     attributionName: string;
     attributionUrl: string;
   };
@@ -65,8 +67,10 @@ export const APP_CONFIG: AppConfig = {
     orgName: "Chicago Growth Project",
     headerSubtitle: "Look up endorsed candidates on your ballot",
     electionLabel: "2026 March 17 Primary Election",
-    footerBlurb: "Looking to get YIMBYs in office",
-    attributionName: "Maintained by Chicago Growth Project, forked from MisterClean/ballot-endorsement-guide",
+    footerBlurb: "Chicago Growth Project is an Urbanist PAC focused on electing pro growth and pro reform candidates.",
+    footerOrgLink: "Learn more about our mission at chicagogrowthproject.org",
+    footerOrgUrl: "https://www.chicagogrowthproject.org/",
+    attributionName: "the Chicago Growth Project, forked from MisterClean/ballot-endorsement-guide",
     attributionUrl: "https://github.com/MisterClean/ballot-endorsement-guide",
   },
   geography: {

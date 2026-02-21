@@ -634,7 +634,18 @@ export default function Home() {
             <span>◆</span>
           </div>
           <p className="text-xs font-body tracking-wide">
-            {APP_CONFIG.branding.orgName} &mdash; {APP_CONFIG.branding.footerBlurb}
+            {APP_CONFIG.branding.footerBlurb}
+          </p>
+          <p className="text-xs font-body tracking-wide">
+            {" "}
+            <a
+              href={APP_CONFIG.branding.footerOrgUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-accent-sky/70 hover:text-accent-sky transition-colors duration-150 underline underline-offset-2"
+            >
+              {APP_CONFIG.branding.footerOrgLink}
+            </a>
           </p>
           <p className="text-xs font-body tracking-wide mt-2">
             Maintained by{" "}
